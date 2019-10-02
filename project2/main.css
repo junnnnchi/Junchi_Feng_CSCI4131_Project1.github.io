@@ -1,0 +1,191 @@
+
+        body{
+            max-width: 870px;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 21% 22% 22% 25%;
+        }
+
+        #header {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: 
+            
+        }
+        #headImg{
+            width: 783px;
+        }
+        #insideImg{
+            width: 180px;
+            height: 35px;
+        }
+        #searchBar {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: #550002;
+            height: 35px;
+            margin-left: -2px;
+        }
+        .searchItem{
+         
+            color: aliceblue;
+            font-size: 11px;
+           
+        }
+        .searchItem:hover{
+            
+            color: #FFCC32;
+        }
+        #mainSearchItem{
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 7px;
+            background-color: #550002;
+        }
+        #q{
+            margin-top: 8px;
+            margin-left: 10px;
+            width: 150px;
+            height: 17px;
+        }
+        #go{
+              position: absolute;
+              top: 0;
+              bottom: 438px;
+              left: 0;
+              right: 40px;
+              margin: auto;
+            
+        }
+        #col1 {
+            font-size: 20pt;
+            text-align: left;
+            background-color: #F1EEE5;
+        }
+        #col2 {
+            font-size: 20pt;
+            text-align: left;
+            background-color: #FFFFFF;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        #col3 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: maroon;
+        }
+        #text1{
+            font-size: 11px;
+            color: #666666;
+            font-family : Verdana, sans-serif;
+           
+        }
+        #text2{
+             color: #A01818;
+            font-size: 17px;
+            margin-bottom: -10px;
+            margin-top: 3px;
+            font-family : Verdana, sans-serif;
+
+            
+        }
+        .navText{
+            font-size: 12px;
+            margin-bottom: -8px;
+            padding-left: 10px;
+            font-family : Verdana, sans-serif;
+            text-decoration: underline;
+            color:#666666;
+        }
+        a:hover{
+	       color: #A01818;
+        }
+        a{
+            color: #666666;
+        }
+        .dropbtn {
+           
+            top: 3px;
+            left: 0;
+            text-align: left;
+             min-width: 82px;
+            padding: 2px 10px;
+            font-size: 10px;
+           
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+
+        }
+
+        .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 82px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+        }
+
+        .dropdown-content a {
+             font-size: 10px;
+              color: black;
+              padding: 4px 0px;
+              text-decoration: none;
+              display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #0055A5;
+                color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #0055A5;
+            color: white;
+        }
+
+
+        
+        
+footer {
+    height: 55px;
+    width: 783px;
+    margin-top: -15px;
+	background-color: #3E3E3E;
+	background-repeat: repeat;
+	color: #FFFFFF;
+}
+        .footerText{
+            color: white;
+            font-size: 10px;
+            font-family : Verdana, sans-serif;
+            
+        }
+        #ft2{
+            padding-left: 180px;
+        }
+        #ft4{
+           padding-left: 250px;
+        }
+        .block_container {
+    display: flex;
+    justify-content: flex-start;
+}
+        #ct1{
+            padding-top: 20px;
+        }
+        #ct2{
+            padding-top: 4px;
+        }
